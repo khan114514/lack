@@ -1,0 +1,84 @@
+{
+  "audit": {
+    "drug_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    },
+    "pair_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    },
+    "row_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    },
+    "scaffold_overlap": {
+      "train__test": 81,
+      "train__val": 88,
+      "val__test": 60
+    },
+    "sizes": {
+      "test": 1060,
+      "train": 76179,
+      "val": 1564
+    },
+    "target_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    }
+  },
+  "summary": {
+    "pairwise_overlap": {
+      "train_test": {
+        "shared_drugs": 0,
+        "shared_pairs": 0,
+        "shared_scaffolds": 81,
+        "shared_targets": 0
+      },
+      "train_val": {
+        "shared_drugs": 0,
+        "shared_pairs": 0,
+        "shared_scaffolds": 88,
+        "shared_targets": 0
+      },
+      "val_test": {
+        "shared_drugs": 0,
+        "shared_pairs": 0,
+        "shared_scaffolds": 60,
+        "shared_targets": 0
+      }
+    },
+    "splits": {
+      "test": {
+        "num_samples": 1060,
+        "num_unique_drugs": 414,
+        "num_unique_pairs": 1050,
+        "num_unique_scaffolds": 320,
+        "num_unique_targets": 42
+      },
+      "train": {
+        "num_samples": 76179,
+        "num_unique_drugs": 1152,
+        "num_unique_pairs": 75873,
+        "num_unique_scaffolds": 709,
+        "num_unique_targets": 141
+      },
+      "val": {
+        "num_samples": 1564,
+        "num_unique_drugs": 426,
+        "num_unique_pairs": 1541,
+        "num_unique_scaffolds": 327,
+        "num_unique_targets": 42
+      }
+    }
+  },
+  "validation": {
+    "empty_splits": [],
+    "ok": true,
+    "violations": []
+  }
+}

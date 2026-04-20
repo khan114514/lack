@@ -1,0 +1,4 @@
+split,num_samples,num_unique_drugs,num_unique_targets,num_unique_pairs,num_unique_scaffolds
+train,94610,2068,141,94160,1201
+val,11822,1967,44,11748,1146
+test,11822,1943,44,11749,1127

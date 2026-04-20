@@ -1,0 +1,39 @@
+{
+  "audit": {
+    "drug_overlap": {
+      "train__test": 1943,
+      "train__val": 1967,
+      "val__test": 1895
+    },
+    "pair_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    },
+    "row_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    },
+    "scaffold_overlap": {
+      "train__test": 1127,
+      "train__val": 1146,
+      "val__test": 1094
+    },
+    "sizes": {
+      "test": 11822,
+      "train": 94610,
+      "val": 11822
+    },
+    "target_overlap": {
+      "train__test": 0,
+      "train__val": 0,
+      "val__test": 0
+    }
+  },
+  "validation": {
+    "empty_splits": [],
+    "ok": true,
+    "violations": []
+  }
+}
